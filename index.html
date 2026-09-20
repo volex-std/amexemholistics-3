@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Beginner's Guide to Building a More Balanced Natural Lifestyle | Amexem Holistic Creations</title>
+<meta name="description" content="A natural lifestyle doesn't start with a total overhaul. It starts with one honest swap at a time. Here's how to begin without the overwhelm.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --black: #0A0A0A;
+    --red: #E2402A;
+    --red-deep: #B22F1E;
+    --white: #F7F5F0;
+    --paper: #FFFFFF;
+    --ink: #141414;
+    --ink-soft: #4a4a4a;
+    --border: #e8e4de;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: "Fraunces", serif;
+    line-height: 1.15;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  a { color: var(--red); }
+  img { max-width: 100%; display: block; }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+
+  .prose {
+    max-width: 660px;
+    margin: 0 auto;
+  }
+
+  /* ── NAV ── */
+  nav.top {
+    background: var(--black);
+    padding: 24px 0;
+  }
+
+  nav.top .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .wordmark {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .wordmark span { color: var(--red); }
+
+  .shop-link {
+    font-size: 14px;
+    color: var(--white);
+    text-decoration: none;
+    opacity: 0.75;
+    white-space: nowrap;
+  }
+
+  .shop-link:hover { opacity: 1; color: var(--red); }
+
+  /* ── HERO ── */
+  header.hero {
+    background: var(--black);
+    padding: 76px 0 86px;
+    overflow: hidden;
+  }
+
+  .hero-grid {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+
+  .hero-copy { flex: 1.15; min-width: 0; }
+  .hero-art  { flex: 0.85; min-width: 0; }
+
+  .kicker {
+    font-size: 15px;
+    color: var(--red);
+    font-weight: 600;
+    margin-bottom: 18px;
+    display: inline-block;
+  }
+
+  h1.title {
+    font-size: clamp(34px, 5vw, 54px);
+    letter-spacing: -0.01em;
+    max-width: 16ch;
+    color: var(--white);
+  }
+
+  .subtitle {
+    margin-top: 22px;
+    font-size: 19px;
+    color: var(--white);
+    opacity: 0.78;
+    max-width: 46ch;
+  }
+
+  .meta-line {
+    margin-top: 26px;
+    font-size: 14px;
+    color: var(--white);
+    opacity: 0.5;
+  }
+
+  /* ── MAIN ── */
+  main { padding: 68px 0 0; }
+
+  .lede {
+    font-size: 21px;
+    line-height: 1.6;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  /* ── SECTIONS ── */
+  section.tip {
+    padding: 48px 0;
+  }
+
+  section.tip + section.tip {
+    border-top: 1px solid var(--border);
+  }
+
+  .tip-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .tip-head .leaf { flex-shrink: 0; margin-top: 6px; }
+
+  h2 {
+    font-size: 27px;
+    max-width: 22ch;
+    color: var(--ink);
+  }
+
+  section.tip p { margin: 16px 0; color: var(--ink); }
+
+  section.tip p.small-note {
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+
+  /* ── PILLAR CARDS ── */
+  .pillar-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 28px 0 8px;
+  }
+
+  .pillar-card {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 22px 20px 24px;
+    border-top: 3px solid var(--red);
+  }
+
+  .pillar-card h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: var(--ink);
+  }
+
+  .pillar-card p {
+    margin: 0 !important;
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+
+  /* ── SWAP LIST ── */
+  .swap-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 8px;
+  }
+
+  .swap-list li {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .swap-list li:last-child { border-bottom: none; }
+
+  .swap-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  .swap-content h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: var(--ink);
+  }
+
+  .swap-content p {
+    margin: 0 !important;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
+
+  /* ── CALLOUT ── */
+  .callout {
+    background: var(--white);
+    border-left: 3px solid var(--red);
+    border-radius: 0 6px 6px 0;
+    padding: 18px 22px;
+    font-size: 15.5px;
+    color: var(--ink-soft);
+    margin: 20px 0 10px;
+  }
+
+  .callout strong { color: var(--ink); }
+
+  /* ── PULL QUOTE ── */
+  .quote-band {
+    padding: 20px 0 44px;
+  }
+
+  .quote-band .prose {
+    position: relative;
+    padding-left: 46px;
+  }
+
+  .quote-mark {
+    position: absolute;
+    left: 0;
+    top: -18px;
+    font-family: "Fraunces", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--red);
+    line-height: 1;
+  }
+
+  .quote-band blockquote {
+    margin: 0;
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.45;
+    color: var(--ink);
+  }
+
+  /* ── CTA CARD ── */
+  .cta-section {
+    padding: 30px 0 10px;
+  }
+
+  .cta-card {
+    background: var(--black);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .cta-image {
+    flex: 0 0 300px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .cta-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .cta-body {
+    flex: 1;
+    padding: 34px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cta-eyebrow {
+    font-size: 13.5px;
+    color: var(--red);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .cta-body h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: var(--white);
+  }
+
+  .cta-body > p {
+    color: var(--white);
+    opacity: 0.75;
+    font-size: 15.5px;
+    margin: 0 0 14px;
+  }
+
+  .benefit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+
+  .benefit-list li {
+    font-size: 14.5px;
+    color: var(--white);
+    opacity: 0.75;
+    padding: 4px 0 4px 20px;
+    position: relative;
+  }
+
+  .benefit-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--red);
+  }
+
+  .price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .price-now {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    color: var(--red);
+  }
+
+  .price-note {
+    font-size: 13px;
+    color: var(--white);
+    opacity: 0.5;
+  }
+
+  .btn-clay {
+    display: inline-block;
+    background: var(--red);
+    color: var(--white);
+    text-decoration: none;
+    padding: 13px 26px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+    transition: background 0.15s ease;
+  }
+
+  .btn-clay:hover { background: var(--red-deep); color: var(--white); }
+
+  /* ── FAQ ── */
+  .faq-section {
+    padding: 60px 0 20px;
+  }
+
+  .faq-section h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    max-width: none;
+  }
+
+  .faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .faq-item {
+    border-top: 1px solid var(--border);
+  }
+
+  .faq-item:last-child {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .faq-trigger {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    text-align: left;
+    font-family: "Fraunces", serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  .faq-trigger:hover { color: var(--red); }
+
+  .faq-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease;
+  }
+
+  .faq-trigger[aria-expanded="true"] .faq-icon { background: var(--red); }
+  .faq-trigger[aria-expanded="true"] .faq-icon svg { stroke: var(--white); }
+  .faq-trigger[aria-expanded="false"] .faq-icon svg { stroke: var(--red); }
+
+  .v-line {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .faq-trigger[aria-expanded="true"] .v-line {
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+
+  .faq-answer {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+
+  .faq-answer-inner {
+    padding: 0 0 24px;
+    font-size: 16px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    max-width: 60ch;
+  }
+
+  .faq-answer-inner p { margin: 0 0 12px; }
+  .faq-answer-inner p:last-child { margin-bottom: 0; }
+
+  /* ── CLOSING ── */
+  .closing {
+    padding: 64px 0 60px;
+  }
+
+  .closing h2 { max-width: none; font-size: 28px; }
+
+  .sign-off {
+    margin-top: 30px;
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--ink-soft);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--black);
+    padding: 40px 0;
+  }
+
+  footer .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  footer .foot-brand {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    color: var(--white);
+  }
+
+  footer .disclaimer {
+    max-width: 480px;
+    font-size: 13px;
+    color: var(--white);
+    opacity: 0.55;
+    line-height: 1.6;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 860px) {
+    .pillar-cards { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (max-width: 760px) {
+    .hero-grid { flex-direction: column; gap: 34px; }
+    .hero-art { order: -1; max-width: 180px; margin: 0 auto; }
+    h1.title { max-width: none; }
+    .pillar-cards { grid-template-columns: 1fr; }
+    .cta-card { flex-direction: column; }
+    .cta-image { flex: none; padding: 26px; }
+    .cta-body { padding: 28px 26px 32px; }
+    footer .wrap { flex-direction: column; }
+    .quote-band blockquote { font-size: 22px; }
+    .quote-mark { font-size: 50px; top: -10px; }
+    .quote-band .prose { padding-left: 34px; }
+    .faq-trigger { font-size: 17px; }
+    .swap-list li { gap: 12px; }
+  }
+
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top">
+  <div class="wrap">
+    <a class="wordmark" href="https://amexemholistics.com/">AMEXEM <span>HOLISTIC</span></a>
+    <a class="shop-link" href="https://amexemholistics.com/collections/all">Visit the shop</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="kicker">Natural Living</span>
+      <h1 class="title">The Beginner's Guide to Building a More Balanced Natural Lifestyle</h1>
+      <p class="subtitle">You don't need a complete overhaul. A natural lifestyle starts with one honest swap — and builds from there.</p>
+      <p class="meta-line">Practical, ingredient-conscious, and actually sustainable.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <!-- Outer ring -->
+        <circle cx="150" cy="150" r="130" fill="none" stroke="#E2402A" stroke-width="2" opacity="0.9"/>
+        <circle cx="150" cy="150" r="108" fill="none" stroke="#E2402A" stroke-width="1" opacity="0.28"/>
+        <!-- Seed/petal radial pattern -->
+        <g fill="none" stroke="#E2402A" stroke-width="1.4" opacity="0.45">
+          <ellipse cx="150" cy="104" rx="10" ry="22" />
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(45 150 150)"/>
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(90 150 150)"/>
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(135 150 150)"/>
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(180 150 150)"/>
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(225 150 150)"/>
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(270 150 150)"/>
+          <ellipse cx="150" cy="104" rx="10" ry="22" transform="rotate(315 150 150)"/>
+        </g>
+        <!-- Centre disc -->
+        <circle cx="150" cy="150" r="48" fill="#E2402A" opacity="0.95"/>
+        <!-- Seed shape in centre -->
+        <ellipse cx="150" cy="150" rx="14" ry="22" fill="#F7F5F0" opacity="0.2" transform="rotate(-15 150 150)"/>
+        <ellipse cx="150" cy="150" rx="14" ry="22" fill="#F7F5F0" opacity="0.12" transform="rotate(30 150 150)"/>
+        <circle cx="150" cy="150" r="5" fill="#F7F5F0" opacity="0.42"/>
+        <circle cx="141" cy="140" r="3" fill="#F7F5F0" opacity="0.2"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- BODY -->
+<main class="wrap">
+  <div class="prose">
+    <p class="lede">A natural lifestyle isn't a destination. It's not a pantry full of specific products or a strict set of rules about what you can and can't use. It's a direction — a gradual shift toward choices that feel more intentional, more ingredient-conscious, more in line with how you actually want to live.</p>
+    <p>If you're just starting out, the most useful thing to know is this: you don't have to change everything at once. The people who build habits that last almost always start with one area, get comfortable there, and expand from that foundation. That's what this guide is for.</p>
+  </div>
+
+  <!-- SECTION 1 — WHAT IT ACTUALLY MEANS -->
+  <section class="tip" id="what-it-means">
+    <div class="prose">
+      <div class="tip-head">
+        <svg class="leaf" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z" stroke="#E2402A" stroke-width="1.8"/>
+        </svg>
+        <h2>What "natural lifestyle" actually means — and what it doesn't</h2>
+      </div>
+      <p>The word "natural" gets used so broadly that it can mean almost anything, which makes it easy to feel like you're doing it wrong before you've even started. It's worth being honest about what the term actually points to, and what it doesn't require.</p>
+      <p>A more natural lifestyle, at its core, means paying more attention to what goes into and onto your body — and gradually replacing things that don't hold up to that scrutiny with things that do. It doesn't mean perfection. It doesn't mean every product has to be handmade, every ingredient has to be unrecognizable, or every choice has to be maximally pure by someone else's standard.</p>
+      <p>It also doesn't require spending more. In many cases, simplifying your routine — fewer products, more intentional ones — costs less than the accumulating stack of things you were using before.</p>
+      <div class="callout">
+        <strong>The most natural thing you can do is start where you already are.</strong> Look at what you're currently using daily — on your body, in your hair, around your home — and ask honestly: do I know what's in this? Do I feel good about it? That question, asked regularly, is the whole practice.
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 — THREE PILLARS -->
+  <section class="tip" id="three-pillars">
+    <div class="prose">
+      <div class="tip-head">
+        <svg class="leaf" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z" stroke="#E2402A" stroke-width="1.8"/>
+        </svg>
+        <h2>Three areas worth starting with</h2>
+      </div>
+      <p>When people try to overhaul everything at once, most of it doesn't stick. Picking one area, building a rhythm there, and then expanding is a more honest model for how change actually happens. These three tend to be the most impactful starting points — and the ones where small changes compound quickly.</p>
+    </div>
+
+    <div class="wrap">
+      <div class="pillar-cards">
+        <div class="pillar-card">
+          <h3>Personal care</h3>
+          <p>What goes on your skin and hair absorbs directly. This is often the easiest area to begin — swapping one or two daily products for more ingredient-conscious alternatives creates a visible and felt difference faster than most other changes.</p>
+        </div>
+        <div class="pillar-card">
+          <h3>What you consume</h3>
+          <p>Food, water, and what you put into your body are foundational. You don't have to rewire your entire diet at once — but paying attention to ingredient lists and processing levels, and making one or two better choices per day, adds up meaningfully over weeks.</p>
+        </div>
+        <div class="pillar-card">
+          <h3>Your environment</h3>
+          <p>Cleaning products, air quality, synthetic fragrances, and what you're around daily all factor in. This area tends to feel the most overwhelming at first — start with whatever you interact with most. A more natural hand soap or an unscented cleaning option is a reasonable first step.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PULL QUOTE -->
+  <div class="quote-band">
+    <div class="prose">
+      <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+      <blockquote>You're not trying to be perfect. You're trying to be more intentional — one swap, one label, one honest choice at a time.</blockquote>
+    </div>
+  </div>
+
+  <!-- SECTION 3 — SWAPS THAT ACTUALLY STICK -->
+  <section class="tip" id="swaps">
+    <div class="prose">
+      <div class="tip-head">
+        <svg class="leaf" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z" stroke="#E2402A" stroke-width="1.8"/>
+        </svg>
+        <h2>Swaps that actually stick for beginners</h2>
+      </div>
+      <p>The best first swap is the one you'll actually keep doing. That usually means something that replaces a daily habit rather than adding a new one, and something where you'll notice the difference quickly enough to stay motivated. Here are five that consistently work for people just starting out.</p>
+    </div>
+
+    <div class="prose">
+      <ul class="swap-list">
+        <li>
+          <span class="swap-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E2402A" stroke-width="2" stroke-linecap="round">
+              <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z"/>
+            </svg>
+          </span>
+          <div class="swap-content">
+            <h3>Replace your daily body oil or lotion with an unrefined botanical oil</h3>
+            <p>Most conventional lotions are mostly water and synthetic emulsifiers. A small amount of cold-pressed oil on slightly damp skin after bathing absorbs better, lasts longer, and has a far cleaner ingredient list. The adjustment period is usually just getting used to using less than you think you need.</p>
+          </div>
+        </li>
+        <li>
+          <span class="swap-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E2402A" stroke-width="2" stroke-linecap="round">
+              <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z"/>
+            </svg>
+          </span>
+          <div class="swap-content">
+            <h3>Switch to fragrance-free wherever possible</h3>
+            <p>Synthetic fragrance is one of the most common skin irritants in personal-care products and is rarely disclosed by its actual components. Replacing fragranced shampoos, soaps, and detergents with unscented versions removes a significant daily exposure with almost no lifestyle cost.</p>
+          </div>
+        </li>
+        <li>
+          <span class="swap-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E2402A" stroke-width="2" stroke-linecap="round">
+              <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z"/>
+            </svg>
+          </span>
+          <div class="swap-content">
+            <h3>Start reading ingredient labels — just one product a day</h3>
+            <p>You don't need a chemistry degree to notice when an ingredient list has forty items versus five. Setting a habit of reading one label a day, and looking up one ingredient you don't recognize, builds ingredient literacy faster than any guide can. Over a month you'll have a genuinely different level of awareness.</p>
+          </div>
+        </li>
+        <li>
+          <span class="swap-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E2402A" stroke-width="2" stroke-linecap="round">
+              <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z"/>
+            </svg>
+          </span>
+          <div class="swap-content">
+            <h3>Reduce your product count before adding new ones</h3>
+            <p>Most routines — hair, skin, body — have accumulated products that are redundant or no longer used. Before you buy anything more natural, clear out what you're not using and consolidate what overlaps. A shorter routine with better products almost always works better than a long one with average ones.</p>
+          </div>
+        </li>
+        <li>
+          <span class="swap-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E2402A" stroke-width="2" stroke-linecap="round">
+              <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z"/>
+            </svg>
+          </span>
+          <div class="swap-content">
+            <h3>Add one whole-ingredient oil to your hair and scalp routine</h3>
+            <p>Cold-pressed, minimally processed oils are one of the most reliable entry points into a natural personal-care routine. They're versatile — hair, scalp, skin — ingredient-transparent, and long-lasting. A single bottle often replaces several products while doing a better job than any of them individually.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTION 4 — INGREDIENT CONSCIOUSNESS -->
+  <section class="tip" id="ingredients">
+    <div class="prose">
+      <div class="tip-head">
+        <svg class="leaf" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z" stroke="#E2402A" stroke-width="1.8"/>
+        </svg>
+        <h2>What ingredient-conscious actually looks like in practice</h2>
+      </div>
+      <p>Ingredient-consciousness doesn't mean avoiding everything synthetic or memorizing banned lists. It means developing a working awareness of what's in the things you use most, and having a rough sense of whether those ingredients align with how you want to live.</p>
+      <p>In practice, it looks like this: you pick up a product, you scan the ingredient list, and you notice whether it's long or short, whether the first five ingredients are things you recognize, and whether there's anything that makes you want to look further before buying. That's it. That's the practice. Over time, it becomes fast and almost instinctive.</p>
+      <p>Cold-pressed oils are a useful benchmark for this. Their ingredient lists are typically one item long — the oil itself. They haven't been stripped, bleached, deodorized, or reformulated. What you get is the plant, pressed. That clarity is exactly what ingredient-consciousness is working toward in every category.</p>
+      <div class="callout">
+        <strong>A shorter ingredient list isn't always better</strong> — but it's usually easier to evaluate. If you can't assess something quickly, that's useful information. Products that require research to understand often don't survive regular scrutiny once you start applying it.
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5 — PACE YOURSELF -->
+  <section class="tip" id="pace">
+    <div class="prose">
+      <div class="tip-head">
+        <svg class="leaf" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 20C4 12 9 4 20 4C20 12 16 20 8 20C6.5 20 5 20 4 20Z" stroke="#E2402A" stroke-width="1.8"/>
+        </svg>
+        <h2>Give the changes time to actually work</h2>
+      </div>
+      <p>One of the most common mistakes beginners make is switching something out, not noticing an immediate dramatic difference, and concluding that the natural option doesn't work as well. Most of the time, this is a timing problem, not a product problem.</p>
+      <p>Skin and hair often go through a brief adjustment period when you change what you're using — especially if you're removing products that were masking problems rather than solving them. A scalp that was used to heavy silicones may feel different for a week or two after switching to a lighter oil. Skin that was used to synthetic moisturizers may take time to regulate. This is normal and typically short-lived.</p>
+      <p>Give each change four to six weeks before deciding it isn't working. Keep the change simple enough that you can actually tell what's doing what. And measure by how things feel over time, not just on day one.</p>
+      <p class="small-note">Changes that compound quietly — a sealing oil used consistently, a fragrance-free product used daily — tend to show their results gradually and then feel obvious in retrospect. The progress is real even when it's not dramatic week to week.</p>
+    </div>
+  </section>
+
+  <!-- CTA CARD -->
+  <section class="cta-section">
+    <div class="cta-card">
+      <div class="cta-image">
+        <img src="https://amexemholistics.com/cdn/shop/files/1000016337_1000x.jpg?v=1750947805" alt="Zack-A-Moor Black Seed Oil bottle" loading="lazy">
+      </div>
+      <div class="cta-body">
+        <span class="cta-eyebrow">A clean first step for hair, scalp, and skin</span>
+        <h3>Zack-A-Moor Black Seed Oil</h3>
+        <p>Cold-pressed from Nigella sativa seeds and made for people who value a simple, ingredient-conscious routine. One versatile oil for hair, scalp, locs, and dry-feeling skin — no long ingredient list, no synthetic additions.</p>
+        <ul class="benefit-list">
+          <li>Helps dry-feeling hair and scalp feel more conditioned</li>
+          <li>Adds a soft-looking shine to braids, twists, curls, and locs</li>
+          <li>Works as a scalp-massage oil or finishing step for hair lengths</li>
+          <li>Helps dry-feeling skin feel moisturized and comfortable</li>
+          <li>Cold-pressed for an ingredient-conscious routine</li>
+        </ul>
+        <div class="price-row">
+          <span class="price-now">$36</span>
+          <span class="price-note">4 oz · also available in 8 oz &amp; 16 oz</span>
+        </div>
+        <a class="btn-clay" href="https://amexemholistics.com/products/zack-a-moor-black-seed-oil-plus" target="_blank" rel="noopener">Shop Black Seed Oil</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section prose">
+    <h2>Questions people actually ask</h2>
+    <ul class="faq-list" role="list">
+
+      <li class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-1">
+          Do I have to go all-natural all at once?
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#E2402A" stroke-width="1.8" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11" class="v-line"/>
+              <line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-1" role="region">
+          <div class="faq-answer-inner">
+            <p>No — and trying to do it all at once is usually what causes people to quit. Changing everything simultaneously makes it hard to know what's working, expensive, and exhausting to maintain. The most sustainable approach is a gradual one: pick the area where you spend the most time or feel the most motivated, make one or two changes there, and let those settle before expanding. Progress made slowly and kept is worth far more than a total overhaul that lasts two weeks.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-2">
+          What's the difference between cold-pressed and refined oil?
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#E2402A" stroke-width="1.8" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11" class="v-line"/>
+              <line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-2" role="region">
+          <div class="faq-answer-inner">
+            <p>Cold-pressed oil is extracted using pressure alone, without heat or chemical solvents. This preserves the natural fatty acids, plant compounds, and nutrients that give the oil its character and efficacy. Refined oils are processed further — often bleached, deodorized, and heat-treated — which extends shelf life and removes the distinctive smell and color, but also strips much of the beneficial content. For a personal-care routine, cold-pressed is almost always the more ingredient-conscious choice.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-3">
+          Can black seed oil be used on all hair types?
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#E2402A" stroke-width="1.8" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11" class="v-line"/>
+              <line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-3" role="region">
+          <div class="faq-answer-inner">
+            <p>Yes, with the usual caveat that the right amount varies by texture and density. Black seed oil is lighter than something like castor oil, which makes it more versatile across hair types. For finer or lower-density hair, use a very small amount — a pea-sized drop — focused on the ends and mid-shaft, not the roots. For thicker, denser, or loc'd hair, you can use slightly more and work it through the full length. Start small and adjust from there; it's much easier to add than to undo over-application.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-4">
+          How is black seed oil different from other botanical oils?
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#E2402A" stroke-width="1.8" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11" class="v-line"/>
+              <line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-4" role="region">
+          <div class="faq-answer-inner">
+            <p>Black seed oil — pressed from Nigella sativa seeds — has a distinct fatty acid profile and a characteristic earthy, slightly spiced scent that refined or generic oils don't have. It sits at a medium weight, lighter than castor and heavier than argan, which makes it practical for both scalp massage and hair-length application. Its use in traditional personal-care rituals across multiple cultures goes back centuries, and in its cold-pressed form it retains the compounds that made it valued in those traditions rather than being a stripped-down commodity version.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-5">
+          Is a natural lifestyle more expensive to maintain?
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#E2402A" stroke-width="1.8" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11" class="v-line"/>
+              <line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-5" role="region">
+          <div class="faq-answer-inner">
+            <p>Not necessarily — and often the opposite once you've settled in. The shift from a natural lifestyle usually involves consolidating products rather than multiplying them. A single quality cold-pressed oil can replace a lotion, a scalp treatment, a finishing oil, and a dry-skin product that you were buying separately. Versatile, whole-ingredient products tend to have a lower cost-per-use than a collection of single-purpose items. The upfront cost of a quality bottle can feel higher; the actual weekly spend tends to come down.</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-6">
+          How do I use black seed oil as part of a natural lifestyle routine?
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#E2402A" stroke-width="1.8" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11" class="v-line"/>
+              <line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-6" role="region">
+          <div class="faq-answer-inner">
+            <p>It's genuinely versatile. For hair: warm a small amount between your palms and smooth through damp hair after washing as a sealant, or apply lightly to dry sections mid-week as a refresh. For the scalp: a few drops massaged in gently before or between wash days supports scalp health and comfort. For skin: apply a small amount to clean, slightly damp skin after bathing — the dampness helps it spread further and absorb better. The 4 oz is a practical starting size to get a feel for how much your routine uses before committing to a larger size.</p>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- CLOSING -->
+  <div class="prose closing">
+    <h2>Where to go from here</h2>
+    <p>You don't need a plan that covers everything. You need a first step that you'll actually take, and a second step when you're ready for it. Pick the swap that feels most manageable — probably the one you've already been thinking about — and start there.</p>
+    <p>The rest follows naturally. That's the thing about building a more balanced lifestyle: once you start paying attention to one thing, you notice more. And each change you make that actually sticks gives you the confidence and the vocabulary to keep going.</p>
+    <p class="sign-off">Start simple. Stay consistent. Build from there.</p>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <span class="foot-brand">Amexem Holistic Creations</span>
+    <p class="disclaimer">This article is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease or condition. For external personal-care use only. Patch test before first use. Free U.S. shipping on orders $75+. Individual experiences vary.</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-trigger').forEach(function(trigger) {
+    trigger.addEventListener('click', function() {
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      var answerId = this.getAttribute('aria-controls');
+      var answer = document.getElementById(answerId);
+
+      document.querySelectorAll('.faq-trigger').forEach(function(t) {
+        t.setAttribute('aria-expanded', 'false');
+        var id = t.getAttribute('aria-controls');
+        document.getElementById(id).style.maxHeight = '0px';
+      });
+
+      if (!expanded) {
+        this.setAttribute('aria-expanded', 'true');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
